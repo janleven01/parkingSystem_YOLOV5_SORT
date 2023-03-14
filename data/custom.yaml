@@ -1,0 +1,14 @@
+train: vehicle_Dataset2/train/images/ 
+val: vehicle_Dataset2/valid/images/
+test: vehicle_Dataset2/test/images/
+nc: 7
+
+# Classes
+names:
+  0: Pickup
+  1: Hatchback
+  2: Sedan
+  3: SUV
+  4: Minivan
+  5: Wagon
+  6: Others
