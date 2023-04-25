@@ -58,21 +58,5 @@ This project develops a smart parking system with a deep learning approach to de
 Convenience is one of the best things about owning a car, but that convenience outweighs the frustration of roaming around looking for available parking spaces in a busy parking lot. It also costs valuable resources like time, money, and effort. This study developed a smart parking system with a deep learning approach to detect available/unavailable parking spaces using surveillance cameras for cheaper but detailed parking information. The pre-trained Yolov5 models used were YoloV5m and YoloV5l. All results of the model evaluation have a high level of precision and recall. The Yolov5l model has higher precision of 98.6% compared to Yolov5m which has 97.2%. Despite the performance, the trained models incorrectly classify the car type occasionally. The three types - SUV, Sedan, and Minivan, cause the incorrect classifications to each other due to its similarity at certain angles as the IP camera is in an elevated position. Furthermore, color detection results vary over time because of the existing shadows and the intensity of light causing a reflection, as cars have reflective surfaces, confusing the feature extractors to read it as white. Nonetheless, the occupancy identification of parking spaces has state-of-the-art functionality with the accuracy of 100%. This study recommended improving color detection which can accurately detect colors under various lighting conditions to improve detection’s robustness.
 </p>
 
-<!-- ## <div align="center">Quick Start Examples</div>
-
-<details open>
-<summary>Install</summary>
-
-[**Python>=3.6.0**](https://www.python.org/) is required with all
-[requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed including
-[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/):
-<!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
-
-```bash
-$ git clone https://github.com/ultralytics/yolov5
-$ cd yolov5
-$ pip install -r requirements.txt
-```
-
 
 </div>
