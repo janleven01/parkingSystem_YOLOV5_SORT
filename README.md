@@ -58,9 +58,9 @@ This project develops a smart parking system with a deep learning approach to de
 Convenience is one of the best things about owning a car, but that convenience outweighs the frustration of roaming around looking for available parking spaces in a busy parking lot. It also costs valuable resources like time, money, and effort. This study developed a smart parking system with a deep learning approach to detect available/unavailable parking spaces using surveillance cameras for cheaper but detailed parking information. The pre-trained Yolov5 models used were YoloV5m and YoloV5l. All results of the model evaluation have a high level of precision and recall. The Yolov5l model has higher precision of 98.6% compared to Yolov5m which has 97.2%. Despite the performance, the trained models incorrectly classify the car type occasionally. The three types - SUV, Sedan, and Minivan, cause the incorrect classifications to each other due to its similarity at certain angles as the IP camera is in an elevated position. Furthermore, color detection results vary over time because of the existing shadows and the intensity of light causing a reflection, as cars have reflective surfaces, confusing the feature extractors to read it as white. Nonetheless, the occupancy identification of parking spaces has state-of-the-art functionality with the accuracy of 100%. This study recommended improving color detection which can accurately detect colors under various lighting conditions to improve detection’s robustness.
 </p>
 
-<!-- ## <div align="center">Quick Start Examples</div> -->
+<!-- ## <div align="center">Quick Start Examples</div>
 
-<!-- <details open>
+<details open>
 <summary>Install</summary>
 
 [**Python>=3.6.0**](https://www.python.org/) is required with all
@@ -74,7 +74,7 @@ $ cd yolov5
 $ pip install -r requirements.txt
 ```
 
-<!-- </details>
+</details>
 
 <details open>
 <summary>Inference</summary>
@@ -118,9 +118,8 @@ $ python detect.py --source 0  # webcam
                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 ```
 
-</details> -->
- -->
-<!-- <details>
+</details>
+<details>
 <summary>Training</summary>
 
 Run commands below to reproduce results
@@ -190,23 +189,23 @@ Get started in seconds with our verified environments. Click each icon below for
     <a href="https://roboflow.com/?ref=ultralytics">
         <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-roboflow-long.png" width="49%"/>
     </a>
-</div> -->
+</div>
 
-<!-- |Weights and Biases|Roboflow ⭐ NEW|
+|Weights and Biases|Roboflow ⭐ NEW|
 |:-:|:-:|
 |Automatically track and visualize all your YOLOv5 training runs in the cloud with [Weights & Biases](https://wandb.ai/site?utm_campaign=repo_yolo_readme)|Label and export your custom datasets directly to YOLOv5 for training with [Roboflow](https://roboflow.com/?ref=ultralytics) |
- -->
 
-<!-- ## <div align="center">Compete and Win</div>
+
+## <div align="center">Compete and Win</div>
 
 We are super excited about our first-ever Ultralytics YOLOv5 🚀 EXPORT Competition with **$10,000** in cash prizes!
 
 <p align="center">
   <a href="https://github.com/ultralytics/yolov5/discussions/3213">
   <img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-export-competition.png"></a>
-</p> -->
+</p>
 
-<!-- ## <div align="center">Why YOLOv5</div>
+## <div align="center">Why YOLOv5</div>
 
 <p align="left"><img width="800" src="https://user-images.githubusercontent.com/26833433/136901921-abcfcd9d-f978-4942-9b97-0e3f202907df.png"></p>
 <details>
@@ -264,9 +263,9 @@ We love your input! We want to make contributing to YOLOv5 as easy and transpare
 For YOLOv5 bugs and feature requests please visit [GitHub Issues](https://github.com/ultralytics/yolov5/issues). For business inquiries or
 professional support requests please visit [https://ultralytics.com/contact](https://ultralytics.com/contact).
 
-<br> -->
+<br>
 
-<!-- <div align="center">
+<div align="center">
     <a href="https://github.com/ultralytics">
         <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-github.png" width="3%"/>
     </a>
