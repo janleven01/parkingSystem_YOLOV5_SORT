@@ -74,7 +74,7 @@ $ cd yolov5
 $ pip install -r requirements.txt
 ```
 
-</details>
+<!-- </details>
 
 <details open>
 <summary>Inference</summary>
@@ -119,7 +119,7 @@ $ python detect.py --source 0  # webcam
 ```
 
 </details> -->
-
+ -->
 <!-- <details>
 <summary>Training</summary>
 
@@ -192,10 +192,10 @@ Get started in seconds with our verified environments. Click each icon below for
     </a>
 </div> -->
 
-|Weights and Biases|Roboflow ⭐ NEW|
+<!-- |Weights and Biases|Roboflow ⭐ NEW|
 |:-:|:-:|
 |Automatically track and visualize all your YOLOv5 training runs in the cloud with [Weights & Biases](https://wandb.ai/site?utm_campaign=repo_yolo_readme)|Label and export your custom datasets directly to YOLOv5 for training with [Roboflow](https://roboflow.com/?ref=ultralytics) |
-
+ -->
 
 <!-- ## <div align="center">Compete and Win</div>
 
